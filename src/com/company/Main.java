@@ -8,7 +8,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        double[] comisiones = new double[10];
+        double[] comisiones = new double[100];
 
         for (int i = 0; i < comisiones.length; i++) {
             System.out.println("Digite el valor de la comision del empleado " + i);
