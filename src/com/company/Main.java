@@ -37,8 +37,8 @@ public class Main {
 
                     int cantidadComisionesIguales = 0;
 
-                    for (int i = 0; i < comisiones.length; i++) {
-                        if (comisiones[i] == comisionDigitada) {
+                    for (double comision : comisiones) {
+                        if (comision == comisionDigitada) {
                             cantidadComisionesIguales += 1;
                         }
                     }
@@ -90,8 +90,8 @@ public class Main {
 
                     int cantidadEmpleadosComisionAlta = 0;
 
-                    for (int i = 0; i < comisiones.length; i++) {
-                        if (comisiones[i] == comisionMasAlta) {
+                    for (double comision : comisiones) {
+                        if (comision == comisionMasAlta) {
                             cantidadEmpleadosComisionAlta += 1;
                         }
                     }
